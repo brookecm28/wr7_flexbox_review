@@ -1,0 +1,48 @@
+body {
+    background-color: green;
+    height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.pockets {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+}
+
+#left-pockets {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: -100px;
+    /* top: -100px; */
+    /* bottom: -100px; */
+}
+
+#right-pockets {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    right: -100px;
+}
+
+.top {
+    position: relative;
+    top: -100px;
+}
+
+.bottom {
+    position: relative;
+    bottom: -100px;
+}
